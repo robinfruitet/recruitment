@@ -5,11 +5,11 @@ import com.esgi.al.model.ValueObject;
 import java.util.Objects;
 import java.util.UUID;
 
-public class CandidateId extends ValueObject {
+public class InterviewId  extends ValueObject {
 
     protected Long id;
 
-    public CandidateId() {
+    public InterviewId() {
         this.id = UUID.randomUUID().getMostSignificantBits();
     }
 

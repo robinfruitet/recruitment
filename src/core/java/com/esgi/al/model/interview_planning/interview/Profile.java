@@ -1,11 +1,11 @@
-package com.esgi.al.model.interview_planning;
+package com.esgi.al.model.interview_planning.interview;
 
 import com.esgi.al.exception.IllegalYearException;
 import com.esgi.al.model.ValueObject;
 
 import java.util.Objects;
 
-public class Profile extends ValueObject {
+class Profile extends ValueObject {
 
     private String specialism;
 
@@ -21,6 +21,6 @@ public class Profile extends ValueObject {
 
     @Override
     public int hashCode() {
-        return Objects.hash(specialism, yearExperiences);
+        return Objects.hash(specialism);
     }
 }
