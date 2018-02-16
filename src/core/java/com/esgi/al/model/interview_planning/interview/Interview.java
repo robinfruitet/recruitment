@@ -1,17 +1,13 @@
 package com.esgi.al.model.interview_planning.interview;
 
-import com.esgi.al.exception.IllegalRecruitmentOfficerException;
-import com.esgi.al.exception.RecruitmentOfficerNotAvailable;
 import com.esgi.al.infrastructure.InterviewId;
 import com.esgi.al.infrastructure.repository.RecruitmentOfficerRepository;
 import com.esgi.al.model.Entity;
 import com.esgi.al.model.interview_planning.TimeSlot;
 import com.esgi.al.use_cases.interview_planning.CandidateDTO;
-import com.esgi.al.use_cases.interview_planning.RecruitmentOfficerDTO;
 import com.esgi.al.use_cases.interview_planning.TimeSlotDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.List;
 import java.util.Objects;
 
 public class Interview extends Entity<InterviewId> {
