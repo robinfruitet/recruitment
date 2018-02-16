@@ -2,6 +2,7 @@ package com.esgi.al.model.interview_planning.interview;
 
 import com.esgi.al.infrastructure.RecruitmentOfficierId;
 import com.esgi.al.model.Entity;
+import com.esgi.al.model.interview_planning.TimeSlot;
 
 class RecruitmentOfficer extends Entity<RecruitmentOfficierId> {
 

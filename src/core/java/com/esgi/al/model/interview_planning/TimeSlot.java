@@ -1,4 +1,4 @@
-package com.esgi.al.model.interview_planning.interview;
+package com.esgi.al.model.interview_planning;
 
 import com.esgi.al.exception.NegativeDurationException;
 import com.esgi.al.model.ValueObject;
@@ -8,7 +8,7 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.Objects;
 
-class TimeSlot extends ValueObject {
+public class TimeSlot extends ValueObject {
 
     private Date startTime;
 

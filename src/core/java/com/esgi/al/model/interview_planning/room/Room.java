@@ -2,7 +2,7 @@ package com.esgi.al.model.interview_planning.room;
 
 import com.esgi.al.infrastructure.RoomId;
 import com.esgi.al.model.Entity;
-import com.esgi.al.model.interview_planning.interview.TimeSlot;
+import com.esgi.al.model.interview_planning.TimeSlot;
 
 import java.util.Objects;
 
